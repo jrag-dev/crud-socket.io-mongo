@@ -1,0 +1,32 @@
+{
+  "name": "crud-socket-mongo",
+  "version": "1.0.0",
+  "description": "app of notes with nodejs, mongodb and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "js",
+    "mongodb",
+    "socket.io"
+  ],
+  "author": "José Alvarado",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2",
+    "socket.io": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}

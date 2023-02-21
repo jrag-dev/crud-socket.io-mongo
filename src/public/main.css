@@ -1,0 +1,55 @@
+
+
+body {
+  height: 100vh;
+  background-color: #FCFCFC;
+}
+
+
+p {
+  font-size: 16px;
+}
+
+
+
+
+header {
+  width: 100%;
+  height: 70px;
+}
+
+.nav {
+  width: 100%;
+  background-color: green;
+}
+
+.notification {
+  position: relative;
+  width: 230px;
+  height: auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification p {
+  padding: 7px 5px;
+  border-radius: 5px;
+  width: 100%;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  background-color: #27a716;
+  text-align: center;
+}
+
+.notificacion-span {
+  padding: 8px 16px;
+  color: #FFFFFF;
+}
+
+h1 {
+  margin: 1rem 0;
+}
